@@ -1,0 +1,54 @@
+input {
+    border: none;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+    padding: 0.5rem 2rem;
+    outline: none;
+}
+
+input:hover {
+
+    outline: 0.1px solid #999;
+}
+
+input::placeholder {
+    color: #555;
+    font-size: 0.8rem;
+    letter-spacing: 0.2rem;
+}
+
+button {
+    border: none;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+    padding: 0.5rem 2rem;
+    background-color: antiquewhite;
+    color: #333;
+    font-size: 0.8rem;
+    letter-spacing: 0.2rem;
+    margin-top: 0.5rem;
+    cursor: pointer;
+}
+
+#ctab {
+    background-color: aquamarine;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem;
+    list-style-type: none;
+    padding: 0;
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
+    margin-left: 1rem;
+
+}
+
+ul li a {
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+    color: #333;
+    text-decoration: none;
+    padding: 0.2rem;
+    font-size: 0.7rem;
+}

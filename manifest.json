@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Hold_links",
+  "version": "1.2.0",
+  "action": {
+    "default_popup": "extension.html"
+  },
+  "icons": {
+    "16": "two.png",
+    "48": "two.png",
+    "128": "two.png"
+  }
+}
